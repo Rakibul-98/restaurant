@@ -46,12 +46,10 @@ const Banner = () => {
     ]
 
     return (
-        <div className='h-screen'>
-            <div className='carousel h-2/6 md:h-4/6 lg:h-5/6'>
-                {
-                    carouselItem.map(ci=><Carousel key={ci.id} ci={ci}></Carousel>)
-                }
-            </div>
+        <div className='carousel'>
+            {
+                carouselItem.map(ci=><Carousel key={ci.id} ci={ci}></Carousel>)
+            }
         </div>
     );
 };
