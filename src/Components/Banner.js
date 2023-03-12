@@ -1,13 +1,14 @@
 import React from 'react';
 import Carousel from './Carousel';
 
+
 const Banner = () => {
     const carouselItem = [
         {
             id:1,
             pre:5,
             next:2,
-            img:"https://i.ibb.co/h8BRfHF/pexels-andy-kuzma-2909822.jpg",
+            img:"https://i.ibb.co/tzP2Pqy/pexels-senuscape-2313686.jpg",
             heading:"Cooking Science",
             title:"1995"
         },
@@ -15,7 +16,7 @@ const Banner = () => {
             id:2,
             pre:1,
             next:3,
-            img:"https://i.ibb.co/WxtV8xv/pexels-ella-olsson-1640774.jpg",
+            img:"https://i.ibb.co/pwZn201/pexels-melanie-dompierre-1707917.jpg",
             heading:"Best Quality",
             title:"FOOD"
         },
@@ -23,7 +24,7 @@ const Banner = () => {
             id:3,
             pre:2,
             next:4,
-            img:"https://i.ibb.co/tzP2Pqy/pexels-senuscape-2313686.jpg",
+            img:"https://i.ibb.co/V3MXbVP/pexels-leonardo-luz-14391214.jpg",
             heading:"Crunchy",
             title:"Italian Pizza"
         },
@@ -39,7 +40,7 @@ const Banner = () => {
             id:5,
             pre:4,
             next:1,
-            img:"https://i.ibb.co/CPHn5M2/pexels-valeria-boltneva-14457194.jpg",
+            img:"https://i.ibb.co/j8RxzHh/pexels-rajesh-tp-1600727.jpg",
             heading:"Juicy",
             title:"Burgers"
         },
