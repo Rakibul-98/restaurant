@@ -4,7 +4,7 @@ import './Carousel.css';
 const Carousel = ({ci}) => {
     const {id, img, heading,title, pre, next} = ci;
     return (
-        <div id={`slide${id}`} className="carousel-item relative w-full text-white">
+        <div id={`slide${id}`} className="carousel-item banner-carousel relative w-full text-white">
             <img src={img} className="w-full"alt='' />
             <div className='w-full absolute text-center top-1/4 md:top-1/3'>
                 <h3 style={{fontFamily:"Dancing Script"}} className='text-5xl md:text-8xl mb-2'>{heading}</h3>

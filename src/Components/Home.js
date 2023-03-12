@@ -5,6 +5,8 @@ import Menu from './Menu';
 import NavBar from './NavBar';
 import Service from './Service';
 import Specialties from './Specialties';
+import Stats from './Stats';
+import Testimonial from './Testimonial';
 
 const Home = () => {
     return (
@@ -16,6 +18,8 @@ const Home = () => {
                 <Service/>
                 <Specialties/>
                 <Menu/>
+                <Stats/>
+                <Testimonial/>
             </div>
         </div>
     );

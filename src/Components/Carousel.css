@@ -1,5 +1,5 @@
 
-.carousel-item:before {
+.banner-carousel:before {
     content: "";
     display: block;
     position: absolute;
@@ -9,13 +9,13 @@
   }
 
   @media screen and (max-width: 2560px){
-    .carousel-item img{
+    .banner-carousel img{
       height: 75vh;
     }
   }
 
   @media screen and (max-width: 760px) {
-    .carousel-item img{
+    .banner-carousel img{
       height: 30vh;
     }
   }

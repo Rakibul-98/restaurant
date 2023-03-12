@@ -1,5 +1,6 @@
 import React from 'react';
 import MenuCard from './MenuCard';
+import { BsFillDiamondFill } from "react-icons/bs";
 
 const Menu = () => {
 
@@ -181,6 +182,7 @@ const Menu = () => {
             <div className='text-center my-10'>
                 <h3 className='text-3xl'>Specialties</h3>
                 <h1 className='text-5xl'>Our Menu</h1>
+                <div className="divider w-1/4 mx-auto text-warning text-2xl"><BsFillDiamondFill/><span><BsFillDiamondFill/></span><BsFillDiamondFill/></div>
             </div>
             <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-10'>
                 {
