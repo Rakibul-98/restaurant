@@ -1,6 +1,7 @@
 import React from 'react';
 import About from './About';
 import Banner from './Banner';
+import Menu from './Menu';
 import NavBar from './NavBar';
 import Service from './Service';
 import Specialties from './Specialties';
@@ -14,6 +15,7 @@ const Home = () => {
                 <About/>
                 <Service/>
                 <Specialties/>
+                <Menu/>
             </div>
         </div>
     );
