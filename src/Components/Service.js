@@ -26,7 +26,7 @@ const Service = () => {
     ]
 
     return (
-        <div className='my-20 bg-red-300'>
+        <div className='my-20'>
             <div className='text-center'>
                 <h1 className='text-5xl mb-5'>We provide</h1>
                 <p className='w-2/3 mx-auto'>At The Bistro, we pride ourselves on providing exceptional service to our guests. Our knowledgeable and friendly staff are always on hand to assist with menu choices, wine pairings, and any special requests.</p>
